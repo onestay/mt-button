@@ -47,7 +47,6 @@ process.stdin.on('keypress', (ch, key) => {
 		} else {
 			console.log('Buttons can\'t handle this state.');
 		}
-
 	}
 	if (key && key.ctrl && key.name === 'c') {
 		console.log('exiting...');
