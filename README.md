@@ -1,4 +1,4 @@
-# Project Title
+# Marathon-Tools button
 
 Button interface for Marathon-Tools used to communicate with the big ass buttons for starting and stopping time.
 ## Getting Started
@@ -8,6 +8,8 @@ yarn
 node index.js
 ```
 It will create the WebSocket connection and make http requests on localhost:3000
+
+It will accept key inputs. 'g' or 'b' when the timer is stopped will start it. 'g' will stop player 1 and 'b' player 2.
 
 ### Prerequisites
 
@@ -21,4 +23,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
